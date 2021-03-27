@@ -178,7 +178,7 @@ server <- function(input, output) {
     tagList("Reference:", url)
   })
   
-  url2 <- a("here", href="https://github.com/ShinyPharm5/Vancomycin/tree/master", target="_blank")
+  url2 <- a("here", href="https://github.com/InteractiveDosingSimulationsSourceCode/VancomycinDosingApp1", target="_blank")
   output$tab55 <- renderUI({
     tagList("The source code for this application is available ", url2)
   })
